@@ -6,7 +6,7 @@ export const messages = {
     footerName: "Mohammad Bagher Fakouri",
     lightTheme: "Switch to light theme",
     darkTheme: "Switch to dark theme",
-    title: "Mohammad Bagher Fakouri — Developer",
+    title: "Mohammad Bagher Fakouri",
   },
   fa: {
     role: "توسعه‌دهنده ارشد",
@@ -15,7 +15,7 @@ export const messages = {
     footerName: "محمد باقر فکوری",
     lightTheme: "تغییر به پوسته روشن",
     darkTheme: "تغییر به پوسته تیره",
-    title: "محمد باقر فکوری — توسعه‌دهنده نرم‌افزار",
+    title: "محمد باقر فکوری",
   },
 };
 
