@@ -1,161 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
   <head>
-    <!-- Meta tags -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="author" content="Mohammad Bagher Fakouri" />
-    <meta
-      name="keywords"
-      content="Mohammad Bagher Fakouri,محمد باقر فکوری, وبسایت محمد باقر فکوری"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Mohammad Bagher Fakouri" />
+    <meta name="description" content="Mohammad Bagher Fakouri — software developer. Curious about complex problems, useful software, and open source." />
     <meta name="google-site-verification" content="PBrb_rYmyfkDyjQyACiCoMXrO8h254o-z45KoribL0w" />
-    <meta name="theme-color" content="#13121c" />
-    <meta property="og:title" content="Mohammad Bagher Fakouri" />
+    <meta name="theme-color" content="#efeee8" />
+    <meta property="og:title" content="Mohammad Bagher Fakouri — Developer" />
+    <meta property="og:description" content="Software developer. Building useful things and sharing them with the world." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.linkedin.com/in/mbfakourii/" />
+    <meta property="og:url" content="https://mbfakouri.ir/" />
     <meta property="og:site_name" content="Mohammad Bagher Fakouri" />
-    <meta property="og:brand" content="Mohammad Bagher Fakouri" />
-    <meta property="og:locale" content="en" />
-    <!-- title -->
-    <title>Info Mohammad Bagher Fakouri</title>
-    <!-- Google Robots -->
-    <meta name="robots" content="index" />
-    <meta name="robots" content="follow" />
-    <!-- Tailwindcss CDN -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
-    />
-    <style>
-      ::-webkit-scrollbar {
-        display: none;
-      }
-    </style>
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://mbfakouri.ir/" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@500;600;700&family=Vazirmatn:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script type="module" src="./assets/js/main.js"></script>
+    <title>Mohammad Bagher Fakouri — Developer</title>
   </head>
+  <body>
+    <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12" /></symbol>
+      <symbol id="github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.9c0-1.1.1-1.6-.5-2.3 3.1-.4 6.3-1.5 6.3-7A5.5 5.5 0 0 0 19.3 4c.2-.9.2-2.2-.2-3 0 0-1.2-.4-4 1.5a13.7 13.7 0 0 0-7.2 0C5.1.6 3.9 1 3.9 1c-.4.8-.4 2.1-.2 3a5.5 5.5 0 0 0-1.5 4.1c0 5.5 3.2 6.6 6.3 7-.6.7-.6 1.3-.5 2.3v3.9" /></symbol>
+      <symbol id="linkedin" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0Z" /></symbol>
+      <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" /></symbol>
+      <symbol id="moon" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z" /></symbol>
+      <symbol id="pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    </svg>
 
-  <body class="font-sans bg-gray-200 antialiased text-gray-900 leading-normal">
-    <div
-      class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-28 lg:my-0"
-    >
-      <!--Main Col-->
-      <div
-        id="profile"
-        class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white mx-6 lg:mx-0"
-      >
-        <div class="p-5 md:p-12 text-center lg:text-left">
-          <!-- Image for mobile view-->
-          <div
-            class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center md: -mt-20"
-            style="background-image: url('./mobile.webp')"
-          ></div>
+    <div class="page">
+      <header class="page-header">
+        <a href="./" class="wordmark" aria-label="Mohammad Bagher Fakouri, home">mb<span>.</span></a>
+        <div class="header-tools">
+          <button id="language-toggle" class="language-button" type="button" aria-label="Switch to Persian">فا</button>
+          <span class="tool-divider" aria-hidden="true"></span>
+          <button id="theme-toggle" class="icon-button" type="button" aria-label="Switch to dark theme" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#moon" /></svg></button>
+        </div>
+      </header>
 
-          <h1 class="text-3xl font-bold pt-8 lg:pt-0">Mohammad Bagher Fakouri</h1>
-          <div
-            class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"
-          ></div>
-          <p
-            class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"
-          >
-            Senior Developer at Exon, Inc.
-          </p>
-          <p class="pt-1 text-sm lg:text-base" style="white-space: pre-line">
-            I am a software developer that's very passionate about solving complicated problems and creating software solutions 🤖.
-            I ❤️ Open Source and therefore take great pleasure out of working on interesting opensource projects.
-          </p>
-
-          <div
-            class="mt-7 pb-7 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-center gap-10 lg:gap-20"
-          >
-            <a
-              class="link"
-              href="https://www.linkedin.com/in/mbfakourii/"
-              data-tippy-content="Linkedin"
-              target="_blank"
-            >
-              <svg
-                class="h-6 fill-current text-gray-500 hover:text-blue-600"
-                role="img"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>Linkedin</title>
-                <path
-                  d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z"
-                /></svg
-            ></a>
-            <a
-              class="link"
-              href="https://github.com/mbfakourii"
-              data-tippy-content="GitHub"
-              target="_blank"
-            >
-              <svg
-                class="h-6 fill-current text-gray-500 hover:text-gray-900"
-                role="img"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>GitHub</title>
-                <path
-                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                />
-              </svg>
-            </a>
+      <main class="profile-card">
+        <div class="profile-content">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-i18n="role">Senior Developer</span></p>
+          <h1 id="profile-name">Mohammad Bagher<br />Fakouri<span class="name-dot">.</span></h1>
+          <p class="profile-description" data-i18n="description">I am a software developer that's very passionate about solving complicated problems and creating software solutions 🤖.<br /><br />I ❤️ Open Source and therefore take great pleasure out of working on interesting open-source projects. I enjoy sharing ideas, learning from the community, and turning complex challenges into simple, useful experiences.</p>
+          <div class="profile-meta"><svg class="icon" aria-hidden="true"><use href="#pin" /></svg><span id="profile-location">Gilan, Iran</span></div>
+          <div class="profile-links">
+            <a class="button button-primary" href="https://github.com/mbfakourii" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#github" /></svg><span data-i18n="github">Explore my GitHub</span><svg class="icon link-arrow" aria-hidden="true"><use href="#arrow" /></svg></a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/mbfakourii/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#linkedin" /></svg><span>LinkedIn</span><svg class="icon link-arrow" aria-hidden="true"><use href="#arrow" /></svg></a>
           </div>
         </div>
-      </div>
+        <div class="profile-photo">
+          <span class="photo-fallback" aria-hidden="true">mb.</span>
+          <img id="profile-avatar" src="https://avatars.githubusercontent.com/u/20955005?v=4&amp;s=800" alt="Mohammad Bagher Fakouri" width="800" height="800" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" />
+        </div>
+      </main>
 
-      <!--Img Col-->
-      <div class="w-full lg:w-2/5">
-        <!-- Big profile image for side bar (desktop) -->
-        <img
-          src="./main.jpg"
-          class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
-        />
-      </div>
-
-      <!-- Pin to top right corner -->
-      <div
-        class="fixed bottom-5 right-0 bg-yellow-800 flex justify-center align-middle rounded-l-2xl shadow-2xl"
-      >
-        <button class="js-change-theme focus:outline-none w-12 h-12 p-3">
-          🌙
-        </button>
-      </div>
+      <footer class="page-footer"><span>© <span id="current-year">2026</span> <span data-i18n="footerName">Mohammad Bagher Fakouri</span></span></footer>
     </div>
-
-    <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/tippy.js@4"></script>
-    <script>
-      //Init tooltips
-      tippy(".link", {
-        placement: "bottom",
-      });
-
-      //Toggle mode
-      const toggle = document.querySelector(".js-change-theme");
-      const body = document.querySelector("body");
-      const profile = document.getElementById("profile");
-
-      toggle.addEventListener("click", () => {
-        if (body.classList.contains("text-gray-900")) {
-          toggle.innerHTML = "☀️";
-          body.classList.remove("text-gray-900");
-          body.classList.add("text-gray-100");
-          profile.classList.remove("bg-white");
-          profile.classList.add("bg-gray-700");
-          body.classList.add("bg-gray-900");
-        } else {
-          toggle.innerHTML = "🌙";
-          body.classList.remove("text-gray-100");
-          body.classList.add("text-gray-900");
-          profile.classList.remove("bg-gray-700");
-          profile.classList.add("bg-white");
-          body.classList.remove("bg-gray-900");
-        }
-      });
-    </script>
   </body>
 </html>
